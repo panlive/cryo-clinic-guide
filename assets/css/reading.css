@@ -32,5 +32,5 @@ nav a{color:#465e64}
 .site-header,.site-footer{width:calc(100% - 70px)}@media(max-width:700px){.site-header,.site-footer{width:calc(100% - 36px)}}
 
 /* Та же спокойная бирюза, что в карточках справочника. */
-.header-art img{filter:hue-rotate(-3deg) saturate(.98)}
+.header-art img{filter:none}
 .section-art svg{filter:hue-rotate(-4deg) saturate(.98)}

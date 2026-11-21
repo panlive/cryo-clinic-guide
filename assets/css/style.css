@@ -21,16 +21,16 @@ h1,h2,h3,.category-title strong{color:var(--heading)}
 
 /* Утверждённая спокойная бирюза: исходная яркость и объём сохранены. */
 #category-1 .category-art{filter:hue-rotate(-5deg) saturate(1.00)}
-#category-3 .category-art{filter:hue-rotate(-3deg) saturate(0.98)}
+#category-3 .category-art{filter:none}
 #category-4 .category-art{filter:hue-rotate(-4deg) saturate(1.00)}
 #category-2 .category-art{filter:hue-rotate(-4deg) saturate(1.01)}
 #category-13 .category-art{filter:hue-rotate(-5deg) saturate(1.00)}
-#category-5 .category-art{filter:hue-rotate(-3deg) saturate(0.96)}
+#category-5 .category-art{filter:none}
 #category-14 .category-art{filter:hue-rotate(-1deg) saturate(0.96)}
 #category-6 .category-art{filter:hue-rotate(-3deg) saturate(0.98)}
 #category-7 .category-art{filter:hue-rotate(0deg) saturate(1.23)}
-#category-8 .category-art{filter:hue-rotate(-3deg) saturate(1.00)}
-#category-9 .category-art{filter:hue-rotate(-3deg) saturate(0.99)}
-#category-15 .category-art{filter:hue-rotate(-5deg) saturate(0.98)}
-#category-11 .category-art{filter:hue-rotate(-3deg) saturate(0.98)}
-#category-10 .category-art{filter:hue-rotate(-2deg) saturate(1.00)}
+#category-8 .category-art{filter:none}
+#category-9 .category-art{filter:none}
+#category-15 .category-art{filter:none}
+#category-11 .category-art{filter:none}
+#category-10 .category-art{filter:none}
