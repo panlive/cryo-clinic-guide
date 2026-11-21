@@ -30,3 +30,7 @@ nav a{color:#465e64}
 @media(max-width:700px){.site-header{gap:18px;min-height:96px}.site-header>a{width:57%}.site-header .site-resort{width:24%;max-width:100px}.site-footer{padding:22px 0}}
 
 .site-header,.site-footer{width:calc(100% - 70px)}@media(max-width:700px){.site-header,.site-footer{width:calc(100% - 36px)}}
+
+/* Та же спокойная бирюза, что в карточках справочника. */
+.header-art img{filter:hue-rotate(-3deg) saturate(.98)}
+.section-art svg{filter:hue-rotate(-4deg) saturate(.98)}
