@@ -20,15 +20,15 @@ h1,h2,h3,.category-title strong{color:var(--heading)}
 @media(max-width:700px){.site-header{gap:18px;min-height:96px}.site-header>a{width:57%}.site-header .site-resort{width:24%;max-width:100px}.site-footer{padding:22px 0}}
 
 /* Единый эталон: рефлексотерапия, измеренная коррекция 21.11.2026. */
-#category-1 .category-art{filter:hue-rotate(-1.07deg) saturate(0.8281) brightness(1.0118) contrast(1.0743)}
+#category-1 .category-art{filter:saturate(0.9611) brightness(1.0229)}
 #category-3 .category-art{filter:hue-rotate(-1.77deg) saturate(0.5672) brightness(1.0671) contrast(1.0770)}
-#category-4 .category-art{filter:hue-rotate(1.60deg) saturate(0.6649) brightness(1.3850) contrast(0.9097)}
-#category-2 .category-art{filter:hue-rotate(-0.14deg) saturate(0.9441) brightness(1.1079) contrast(0.6730)}
-#category-13 .category-art{filter:hue-rotate(-1.27deg) saturate(0.8043) brightness(1.0929) contrast(0.9414)}
-#category-5 .category-art{filter:hue-rotate(0.93deg) saturate(0.5759) brightness(1.2372) contrast(0.9505)}
-#category-14 .category-art{filter:hue-rotate(3.90deg) saturate(0.6964) brightness(1.1204) contrast(0.9423)}
-#category-6 .category-art{filter:hue-rotate(0.70deg) saturate(1.0861) brightness(0.9964) contrast(0.8050)}
-#category-7 .category-art{filter:hue-rotate(4.30deg) saturate(0.9912) brightness(1.3118) contrast(0.7034)}
+#category-4 .category-art{filter:saturate(0.7719) brightness(1.2200)}
+#category-2 .category-art{filter:saturate(1.0951) brightness(1.0003)}
+#category-13 .category-art{filter:saturate(0.9271) brightness(1.0777)}
+#category-5 .category-art{filter:saturate(0.6757) brightness(1.2070)}
+#category-14 .category-art{filter:saturate(0.8191) brightness(1.0841)}
+#category-6 .category-art{filter:saturate(1.2784) brightness(0.9400)}
+#category-7 .category-art{filter:saturate(1.1827) brightness(1.1756)}
 #category-8 .category-art{filter:none}
 #category-9 .category-art{filter:hue-rotate(-0.49deg) saturate(0.6074) brightness(0.9744) contrast(1.1849)}
 #category-15 .category-art{filter:hue-rotate(2.35deg) saturate(0.7227) brightness(1.0459) contrast(1.2035)}
