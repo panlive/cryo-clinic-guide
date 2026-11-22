@@ -4,16 +4,16 @@
 img.category-art{object-fit:contain}
 
 /* Фирменные акценты по образцу основного сайта, 21.11.2026. */
-.procedure nav>a,.procedure>.back{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:10px 16px;border:1px solid transparent;border-radius:9px;background:var(--accent);color:#fff;font-size:14px;font-weight:700;line-height:1.4;text-decoration:none;transition:background .15s}
-.procedure nav>a:hover,.procedure>.back:hover{background:var(--accent-hover)}
+.procedure nav>a,.procedure>.back{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:10px 16px;border:1px solid transparent;border-radius:9px;background:#84c4bc;color:var(--heading);font-size:14px;font-weight:700;line-height:1.4;text-decoration:none;transition:background .15s}
+.procedure nav>a:hover,.procedure>.back:hover{background:#78bdb5}
 .category:hover{border-color:#8bd6df}
 .category[open]{border-color:#72cbd5}
 .search-field:focus-within{outline-color:var(--accent)}
 
 /* На главной бирюза выделяет названия направлений. */
 h1,h2,h3{color:var(--heading)}
-.intro h1{text-transform:uppercase}
-.category-title strong{color:#007c88;font-weight:600}
+.intro h1{font-size:clamp(24px,3vw,34px);text-transform:uppercase}
+.category-title strong{color:#306f67;font-weight:600}
 .category-title>span{color:#51696e}
 
 /* Общая шапка и права на всех страницах. */
