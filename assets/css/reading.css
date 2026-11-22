@@ -26,7 +26,7 @@ nav a{color:#465e64}
 .facts span{color:#51696e}
 
 /* Общая шапка и права на всех страницах. */
-.site-header{display:flex;align-items:center;justify-content:space-between;gap:24px;max-width:1104px;min-height:112px;margin:auto;padding:16px 0;border-bottom:1px solid var(--line)}.site-header img{display:block;height:auto;mix-blend-mode:multiply}.site-header .site-clinic{width:250px;max-width:100%}.site-header .site-resort{width:120px}.site-footer{max-width:1104px;margin:0 auto;padding:24px 0;color:var(--muted);font-size:13px;border-top:1px solid var(--line)}
+.site-header{display:flex;align-items:center;justify-content:space-between;gap:24px;max-width:1104px;min-height:112px;margin:auto;padding:16px 0;border-bottom:1px solid var(--line)}.site-header img{display:block;height:auto;mix-blend-mode:multiply}.site-header .site-clinic{width:250px;max-width:100%}.site-header .site-resort{width:120px;filter:brightness(.78) contrast(1.8)}.site-footer{max-width:1104px;margin:0 auto;padding:24px 0;color:var(--muted);font-size:13px;border-top:1px solid var(--line)}
 @media(max-width:700px){.site-header{gap:18px;min-height:96px}.site-header>a{width:57%}.site-header .site-resort{width:24%;max-width:100px}.site-footer{padding:22px 0}}
 
 .site-header,.site-footer{width:calc(100% - 70px)}@media(max-width:700px){.site-header,.site-footer{width:calc(100% - 36px)}}
