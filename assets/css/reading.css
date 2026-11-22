@@ -4,8 +4,8 @@
 
 /* Явный переход на главную вместо неочевидного клика по логотипу. */
 .topbar{flex-wrap:wrap;gap:12px 24px}
-.back-to-guide{display:inline-flex;align-items:center;justify-content:center;min-height:44px;border:1px solid transparent;background:#84c4bc;border-radius:9px;padding:10px 16px;color:var(--heading);font-size:14px;font-weight:700;line-height:1.4;text-decoration:none;white-space:nowrap;transition:background .15s}
-.back-to-guide:hover{background:#78bdb5}
+.back-to-guide{display:inline-flex;align-items:center;justify-content:center;min-height:44px;border:1px solid transparent;background:#9dd7d3;border-radius:9px;padding:10px 16px;color:#225951;font-size:14px;font-weight:700;line-height:1.4;text-decoration:none;white-space:nowrap;transition:background .15s}
+.back-to-guide:hover{background:#96cfca}
 @media(max-width:700px){.topbar>span{display:none}.topbar img{width:180px}.back-to-guide{font-size:13px;padding:7px 10px}}
 
 

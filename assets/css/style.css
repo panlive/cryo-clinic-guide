@@ -4,8 +4,8 @@
 img.category-art{object-fit:contain}
 
 /* Кнопки возврата со страниц процедур. */
-.procedure nav>a,.procedure>.back{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:10px 16px;border:1px solid transparent;border-radius:9px;background:#84c4bc;color:var(--heading);font-size:14px;font-weight:700;line-height:1.4;text-decoration:none;transition:background .15s}
-.procedure nav>a:hover,.procedure>.back:hover{background:#78bdb5}
+.procedure nav>a,.procedure>.back{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:10px 16px;border:1px solid transparent;border-radius:9px;background:#9dd7d3;color:#225951;font-size:14px;font-weight:700;line-height:1.4;text-decoration:none;transition:background .15s}
+.procedure nav>a:hover,.procedure>.back:hover{background:#96cfca}
 .category:hover{border-color:#8bd6df}
 .category[open]{border-color:#72cbd5}
 .search-field:focus-within{outline-color:var(--accent)}
