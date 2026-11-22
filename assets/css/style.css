@@ -10,9 +10,10 @@ img.category-art{object-fit:contain}
 .category[open]{border-color:#72cbd5}
 .search-field:focus-within{outline-color:var(--accent)}
 
-/* Иерархия текста как на cryocliniq.ru: тёмная вводная строка и заголовки. */
-h1,h2,h3,.category-title strong{color:var(--heading)}
-.category-title strong{font-weight:600}
+/* Заголовки главной: оттенки бирюзы официального логотипа. */
+h1,h2,h3{color:var(--heading)}
+.intro h1{color:#0099a7}
+.category-title strong{color:#007c88;font-weight:600}
 .category-title>span{color:#51696e}
 
 /* Общая шапка и права на всех страницах. */
