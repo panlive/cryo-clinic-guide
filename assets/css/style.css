@@ -10,9 +10,9 @@ img.category-art{object-fit:contain}
 .category[open]{border-color:#72cbd5}
 .search-field:focus-within{outline-color:var(--accent)}
 
-/* Заголовки главной: оттенки бирюзы официального логотипа. */
+/* На главной бирюза выделяет названия направлений. */
 h1,h2,h3{color:var(--heading)}
-.intro h1{color:#0099a7}
+.intro h1{text-transform:uppercase}
 .category-title strong{color:#007c88;font-weight:600}
 .category-title>span{color:#51696e}
 
