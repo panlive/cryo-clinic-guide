@@ -34,3 +34,12 @@ nav a{color:#465e64}
 /* Та же спокойная бирюза, что в карточках справочника. */
 .header-art img,.header-art svg{filter:none}
 .section-art svg{filter:none}
+
+/* Компактные тарифы в панели локальной криотерапии. */
+.facts-tariffs > p{margin:0 0 6px}
+.facts-tariffs ul{margin:0;padding-left:17px;font-size:14px;line-height:1.4}
+.facts-tariffs li{margin:0;padding-left:0}
+.facts-tariffs li + li{margin-top:5px}
+@media(min-width:951px){
+ .facts-with-tariffs{grid-template-columns:minmax(0,1.05fr) minmax(0,1fr) minmax(0,2.4fr)}
+}
