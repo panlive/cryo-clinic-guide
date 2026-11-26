@@ -55,5 +55,5 @@ nav a{color:#465e64}
 .equipment-tariffs:has(dl>div:only-child){max-width:16rem;width:100%}
 .equipment-tariffs dl>div:only-child dd{display:flex;align-items:baseline;gap:8px}
 
-.equipment-tariffs dl>div:only-child dd strong{font-size:17px;font-weight:650;color:var(--heading)}
-@media(max-width:700px){.equipment-tariffs dl>div:only-child dd strong{font-size:15px}}
+.equipment-tariffs dd strong{font-size:17px;font-weight:650;color:var(--heading)}
+@media(max-width:700px){.equipment-tariffs dd strong{font-size:15px}}
