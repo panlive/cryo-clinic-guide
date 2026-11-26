@@ -57,3 +57,8 @@ nav a{color:#465e64}
 
 .equipment-tariffs dd strong{font-size:17px;font-weight:650;color:var(--heading)}
 @media(max-width:700px){.equipment-tariffs dd strong{font-size:15px}}
+
+@media(min-width:851px){
+ .equipment-with-tariffs.equipment-wide-image{grid-template-columns:minmax(0,60fr) minmax(0,40fr)}
+ .equipment-wide-image img{height:280px}
+}
