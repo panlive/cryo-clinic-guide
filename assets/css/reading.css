@@ -51,3 +51,6 @@ nav a{color:#465e64}
  .equipment-with-tariffs{grid-template-columns:minmax(0,1fr);gap:15px}
  .equipment-with-tariffs img{height:195px}
 }
+
+.equipment-tariffs:has(dl>div:only-child){max-width:16rem;width:100%}
+.equipment-tariffs dl>div:only-child dd{display:flex;align-items:baseline;gap:8px}
