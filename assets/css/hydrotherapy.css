@@ -63,3 +63,17 @@
  .hydro-program>summary{gap:8px;padding:12px}
  .hydro-equipment>figure{max-width:400px;margin-inline:auto}
 }
+
+.program-tariffs{
+ display:grid;
+ grid-template-columns:52px 118px;
+ align-items:baseline;
+ justify-items:end;
+ column-gap:12px;
+}
+.program-tariffs .tariff-duration{margin:0;white-space:nowrap}
+@media(max-width:600px){
+ .program-multiple-tariffs>summary{grid-template-columns:22px minmax(0,1fr) 10px}
+ .program-multiple-tariffs .program-tariffs{grid-column:2;grid-row:2;justify-self:end}
+ .program-multiple-tariffs .hydro-chevron{grid-column:3;grid-row:1}
+}
