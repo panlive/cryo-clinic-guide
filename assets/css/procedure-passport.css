@@ -35,9 +35,34 @@
  :is(.local-cryo-passport,.expanded-passport) .procedure-passport{padding:10px}
 }
 
-:is(.local-cryo-header,.immersion-header) .equipment-tariffs dd strong{font-size:clamp(1.125rem,1.7vw,1.375rem);color:var(--teal);font-weight:650}
-
-.immersion-header .equipment-with-tariffs img{height:clamp(150px,25vw,205px)}
-@media(min-width:701px){
- .immersion-header .equipment-with-tariffs.equipment-wide-image{grid-template-columns:repeat(2,minmax(0,1fr))}
+:is(.local-cryo-header,.immersion-header) .equipment-with-tariffs img{
+ height:auto;
+ aspect-ratio:4/3;
+ object-fit:contain;
+}
+:is(.local-cryo-header,.immersion-header) .equipment-with-tariffs figcaption{
+ font-size:clamp(.85rem,1.3vw,1rem);
+}
+:is(.local-cryo-header,.immersion-header) .equipment-tariffs h2{
+ font-size:clamp(1.35rem,2.4vw,2.125rem);
+}
+:is(.local-cryo-header,.immersion-header) .equipment-tariffs dl>div{
+ padding-block:clamp(10px,1.7vw,22px);
+}
+:is(.local-cryo-header,.immersion-header) .equipment-tariffs dd strong{
+ font-size:clamp(1.375rem,2.7vw,2.5rem);
+ color:var(--teal);
+ font-weight:650;
+}
+@media(min-width:851px){
+ :is(.local-cryo-header,.immersion-header) .equipment-with-tariffs{
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:16px;
+ }
+}
+@media(max-width:850px){
+ :is(.local-cryo-header,.immersion-header) .equipment-with-tariffs img{
+  max-width:330px;
+  margin-inline:auto;
+ }
 }
