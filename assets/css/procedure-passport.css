@@ -20,3 +20,17 @@
 .procedure-passport .passport-number{font-size:clamp(1.1rem,3.8vw,2.4rem)}
 .icequeen-header + .procedure-passport dd span:empty{display:none}
 @media(max-width:700px){.icequeen-header .equipment-with-tariffs.equipment-wide-image{grid-template-columns:minmax(0,1fr)}}
+
+.local-cryo-passport{margin:26px 0 28px}
+.local-cryo-passport h2{margin:0 0 14px}
+.local-cryo-passport .procedure-passport{margin:0;padding:16px;border-color:#e9e9e9;border-radius:20px}
+.local-cryo-passport .procedure-passport dl{gap:12px}
+.local-cryo-passport .procedure-passport dl>div{padding:18px;border-radius:16px}
+.local-cryo-passport dt{font-size:clamp(.875rem,1.25vw,1.05rem)}
+.local-cryo-passport svg{margin-bottom:10px}
+.local-cryo-passport dd strong{font-size:clamp(1.05rem,2vw,1.5rem);line-height:1.2;margin:8px 0}
+.local-cryo-passport dd .passport-number{font-size:clamp(1.4rem,3.8vw,2.75rem)}
+@media(max-width:600px){
+ .local-cryo-passport .procedure-passport dl{grid-template-columns:minmax(0,1fr)}
+ .local-cryo-passport .procedure-passport{padding:10px}
+}
