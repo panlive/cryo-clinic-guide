@@ -34,3 +34,5 @@
  .local-cryo-passport .procedure-passport dl{grid-template-columns:minmax(0,1fr)}
  .local-cryo-passport .procedure-passport{padding:10px}
 }
+
+.local-cryo-header .equipment-tariffs dd strong{font-size:clamp(1.125rem,1.7vw,1.375rem);color:var(--teal);font-weight:650}
