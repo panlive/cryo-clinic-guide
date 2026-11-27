@@ -34,6 +34,7 @@
 }
 .hydro-program[open] .hydro-chevron{transform:translateY(2px) rotate(225deg)}
 .hydro-layout .tariff-price{white-space:nowrap;text-align:right}
+.hydro-program>summary .tariff-price{font-size:20px;line-height:1.2}
 .hydro-program-body{padding:0 16px 16px;border-top:1px solid var(--line)}
 .hydro-layout h3{font-size:18px;font-weight:600}
 .hydro-additions{margin:12px 0 16px}
@@ -64,35 +65,16 @@
  .hydro-equipment>figure{max-width:400px;margin-inline:auto}
 }
 
-#hydro-programs.programs-compact{
- gap:0;
- background:white;
- border:1px solid var(--line);
- border-radius:12px;
-}
-.programs-compact .hydro-program{border:0;border-radius:0;background:transparent}
-.programs-compact .hydro-program+.hydro-program{border-top:1px solid var(--line)}
-.programs-compact .hydro-program>summary{padding:10px 12px}
-.programs-compact .hydro-program>summary:focus-visible{outline-offset:-3px}
 .program-tariffs{
- display:flex;
- flex-wrap:wrap;
- justify-content:flex-start;
- gap:4px 12px;
+ display:grid;
+ grid-template-columns:52px 86px;
+ align-items:baseline;
+ justify-items:end;
+ column-gap:12px;
 }
-.program-tariff{display:grid;align-content:start;justify-items:start}
 .program-tariffs .tariff-duration{margin:0;white-space:nowrap}
-.program-tariffs .tariff-price{line-height:1.15}
-@media(min-width:851px){
- .programs-compact .hydro-program>summary{
-  grid-template-columns:22px minmax(0,1fr) max(34%, 336px) 10px;
- }
-}
-@media(max-width:850px){
- .programs-compact .hydro-program>summary{
-  grid-template-columns:22px minmax(0,1fr) 10px;
-  row-gap:4px;
- }
- .programs-compact .program-tariffs{grid-column:1/-1;grid-row:2;column-gap:8px}
- .programs-compact .hydro-chevron{grid-column:3;grid-row:1}
+@media(max-width:600px){
+ .program-multiple-tariffs>summary{grid-template-columns:22px minmax(0,1fr) 10px}
+ .program-multiple-tariffs .program-tariffs{grid-column:2;grid-row:2;justify-self:end}
+ .program-multiple-tariffs .hydro-chevron{grid-column:3;grid-row:1}
 }
