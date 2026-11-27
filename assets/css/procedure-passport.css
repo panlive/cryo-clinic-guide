@@ -1,6 +1,6 @@
 .procedure-passport{margin:22px 0 28px;padding:14px;border:1px solid var(--line);border-radius:16px;background:white}
 .procedure-passport dl{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin:0}
-.procedure-passport dl>div{padding:15px 16px;border-radius:12px;background:var(--bg)}
+.procedure-passport dl>div{padding:15px 16px;border-radius:12px;background:#f3f3f3}
 .procedure-passport dt{color:var(--muted);font-size:.875rem}
 .procedure-passport svg{display:block;width:24px;height:24px;margin-bottom:5px;fill:none;stroke:var(--teal);stroke-width:1.75;stroke-linecap:round;stroke-linejoin:round}
 .procedure-passport dd{margin:2px 0 0}
@@ -17,7 +17,6 @@
 
 .icequeen-header .equipment-with-tariffs img{height:clamp(230px,36vw,330px)}
 .icequeen-header .equipment-tariffs dd strong{font-size:clamp(1.45rem,3.8vw,2.4rem);color:var(--teal)}
-.icequeen-header + .procedure-passport dl>div{background:#f3f3f3}
-.icequeen-header + .procedure-passport .passport-number{font-size:clamp(1.1rem,3.8vw,2.4rem)}
+.procedure-passport .passport-number{font-size:clamp(1.1rem,3.8vw,2.4rem)}
 .icequeen-header + .procedure-passport dd span:empty{display:none}
 @media(max-width:700px){.icequeen-header .equipment-with-tariffs.equipment-wide-image{grid-template-columns:minmax(0,1fr)}}
