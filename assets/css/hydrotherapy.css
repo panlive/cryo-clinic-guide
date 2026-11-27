@@ -1,0 +1,65 @@
+.hydro-layout{grid-template-columns:minmax(0,850px);justify-content:center}
+.hydro-equipment,.hydro-nozzles,.hydro-mechanisms{
+ display:grid;
+ grid-template-columns:repeat(2,minmax(0,1fr));
+ gap:12px;
+}
+.hydro-equipment{align-items:center;margin:16px 0 28px}
+.hydro-equipment figure{margin:0;text-align:center}
+.hydro-equipment img{display:block;width:100%;aspect-ratio:4/3;object-fit:contain}
+.hydro-nozzles img{aspect-ratio:1}
+.hydro-equipment figcaption{font-size:14px;color:var(--muted);margin-top:5px}
+.hydro-toolbar{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:6px 16px;margin-bottom:12px}
+.hydro-toolbar h2,.hydro-layout .reading-section h2{font-size:24px;font-weight:600;line-height:1.2}
+.hydro-toolbar h2{margin:0}
+#hydro-programs{display:grid;gap:12px}
+.hydro-program{background:white;border:1px solid var(--line);border-radius:12px;scroll-margin-top:12px}
+.hydro-program>summary{
+ display:grid;
+ grid-template-columns:22px minmax(0,1fr) max-content 10px;
+ align-items:center;
+ gap:12px;
+ padding:16px;
+ list-style:none;
+ cursor:pointer;
+}
+.hydro-program>summary::-webkit-details-marker{display:none}
+.hydro-chevron{
+ width:8px;
+ height:8px;
+ border-right:1.5px solid var(--accent-mark);
+ border-bottom:1.5px solid var(--accent-mark);
+ transform:translateY(-2px) rotate(45deg);
+}
+.hydro-program[open] .hydro-chevron{transform:translateY(2px) rotate(225deg)}
+.hydro-layout .tariff-price{white-space:nowrap;text-align:right}
+.hydro-program-body{padding:0 16px 16px;border-top:1px solid var(--line)}
+.hydro-layout h3{font-size:18px;font-weight:600}
+.hydro-additions{margin:12px 0 16px}
+.hydro-additions>div{
+ display:grid;
+ grid-template-columns:minmax(0,1fr) max-content;
+ align-items:center;
+ gap:12px;
+ padding:8px 0;
+ border-bottom:1px solid var(--line);
+}
+.hydro-additions dd{margin:0}
+.hydro-addition-note{display:block;font-size:15px;color:var(--muted)}
+.hydro-icon{width:22px;height:22px;fill:none;stroke:var(--teal);stroke-width:1.75;stroke-linecap:round;stroke-linejoin:round}
+.hydro-benefits>div{
+ display:grid;
+ grid-template-columns:38px minmax(0,1fr);
+ gap:12px;
+ padding:16px 0;
+ border-bottom:1px solid var(--line);
+}
+.hydro-benefits .hydro-icon{box-sizing:content-box;padding:8px;background:var(--accent-wash);border-radius:9px}
+.hydro-mechanisms>div{background:#f3f3f3;border-radius:12px;padding:16px}
+.hydro-benefits h3,.hydro-mechanisms h3{margin:0 0 6px}
+.hydro-layout .back-to-guide{margin-top:20px}
+@media(max-width:700px){
+ .hydro-equipment,.hydro-mechanisms{grid-template-columns:minmax(0,1fr)}
+ .hydro-program>summary{gap:8px;padding:12px}
+ .hydro-equipment>figure{max-width:400px;margin-inline:auto}
+}

@@ -1,0 +1,12 @@
+.catalog-toggle{
+ background:transparent;
+ border:0;
+ color:var(--teal);
+ cursor:pointer;
+ font:inherit;
+ font-size:14px;
+ padding:6px 0;
+ white-space:nowrap;
+}
+.catalog-toggle:hover{text-decoration:underline;text-underline-offset:4px}
+@media(max-width:740px){.catalog-toggle{font-size:13px}}

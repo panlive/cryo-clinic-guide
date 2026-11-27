@@ -9,10 +9,10 @@
 .equipment-tariffs h2{margin:0 0 6px;font-size:24px;font-weight:600;line-height:1.2}
 .equipment-tariffs dl{margin:0}
 .equipment-tariffs dl>div{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:14px;align-items:center;border-bottom:1px solid var(--line);padding:8px 0}
-.equipment-tariffs dt{font-size:17px;font-weight:400;line-height:1.35}
-.equipment-tariffs .tariff-duration{display:block;margin-top:3px;font-size:14px;font-weight:400;color:var(--muted)}
+.equipment-tariffs dt,.tariff-name{font-size:17px;font-weight:400;line-height:1.35}
+.tariff-duration{display:block;margin-top:3px;font-size:14px;font-weight:400;color:var(--muted)}
 .equipment-tariffs dd{margin:0;text-align:right;white-space:nowrap;line-height:1.4}
-.equipment-tariffs dd strong{font-size:28px;font-weight:600;color:var(--teal)}
+.equipment-tariffs dd strong,.tariff-price{font-size:28px;font-weight:600;color:var(--teal)}
 .procedure-passport{margin:22px 0 28px;padding:12px;border:1px solid var(--line);border-radius:16px;background:white}
 .procedure-passport dl{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin:0}
 .procedure-passport dl>div{padding:16px;border-radius:12px;background:#f3f3f3}

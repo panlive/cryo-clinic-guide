@@ -45,7 +45,8 @@
   });
   categories.forEach(c => c.addEventListener('toggle', updateToggle));
   function followHash() {
-    const hash = location.hash === '#category-12' ? '#category-11' : location.hash;
+    const aliases = { '#category-12': '#category-11', '#category-14': '#category-5' };
+    const hash = aliases[location.hash] ?? location.hash;
     const category = categories.find(c => '#' + c.id === hash);
     if (category) category.open = true;
   }
