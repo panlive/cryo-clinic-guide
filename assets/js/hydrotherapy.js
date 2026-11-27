@@ -13,7 +13,21 @@ toggle.addEventListener('click', () => {
   programs.forEach(program => { program.open = open; });
   syncToggle();
 });
-programs.forEach(program => program.addEventListener('toggle', syncToggle));
+programs.forEach(program => {
+  program.addEventListener('toggle', syncToggle);
+  const close = program.querySelector('.program-collapse');
+  const summary = program.querySelector('summary');
+  close.hidden = false;
+  close.addEventListener('click', () => {
+    program.open = false;
+    syncToggle();
+    summary.focus({ preventScroll: true });
+    const bounds = summary.getBoundingClientRect();
+    if (bounds.top < 0 || bounds.bottom > window.innerHeight) {
+      program.scrollIntoView({ block: 'start', behavior: 'instant' });
+    }
+  });
+});
 toggle.hidden = false;
 
 function followAnchor() {

@@ -78,3 +78,5 @@
  .program-multiple-tariffs .program-tariffs{grid-column:2;grid-row:2;justify-self:end}
  .program-multiple-tariffs .hydro-chevron{grid-column:3;grid-row:1}
 }
+
+.program-collapse{margin-top:12px;min-height:44px}
