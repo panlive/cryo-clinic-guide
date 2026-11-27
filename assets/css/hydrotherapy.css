@@ -9,7 +9,7 @@
 .hydro-equipment img{display:block;width:100%;aspect-ratio:4/3;object-fit:contain}
 .hydro-nozzles img{aspect-ratio:1}
 /* Match the visible coil diameter in the two source illustrations. */
-.hydro-vacuum img{transform:scale(.93)}
+.hydro-vacuum img{transform:translate(-1.5%,5%) scale(.90)}
 .hydro-equipment figcaption{font-size:14px;color:var(--muted);margin-top:5px}
 .hydro-toolbar{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:6px 16px;margin-bottom:12px}
 .hydro-toolbar h2,.hydro-layout .reading-section h2{font-size:24px;font-weight:600;line-height:1.2}
