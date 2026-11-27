@@ -45,6 +45,9 @@ nav a{color:#465e64}
 .equipment-tariffs dt,.equipment-tariffs dd{font-size:14px;line-height:1.4}
 .equipment-tariffs dd{margin:0;display:grid;justify-items:end;white-space:nowrap;gap:2px}
 .equipment-tariffs dd span{font-size:12px;color:var(--muted)}
+.reading-section table{width:100%;margin:16px 0;border-collapse:collapse;overflow-wrap:anywhere}
+.reading-section th,.reading-section td{padding:8px 10px;text-align:left;vertical-align:top;border-bottom:1px solid var(--line)}
+.reading-section th{color:var(--heading)}
 .facts.facts-pair{grid-template-columns:repeat(2,minmax(0,1fr));margin-top:18px}
 .facts.facts-pair>div:last-child{grid-column:auto;border-top:0;border-left:1px solid var(--line)}
 @media(max-width:850px){
