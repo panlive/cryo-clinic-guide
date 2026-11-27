@@ -85,7 +85,7 @@
 .program-tariffs .tariff-price{line-height:1.15}
 @media(min-width:851px){
  .programs-compact .hydro-program>summary{
-  grid-template-columns:22px minmax(0,1fr) max(34%, 324px) 10px;
+  grid-template-columns:22px minmax(0,1fr) max(34%, 336px) 10px;
  }
 }
 @media(max-width:850px){
