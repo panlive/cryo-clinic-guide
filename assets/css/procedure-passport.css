@@ -35,4 +35,9 @@
  :is(.local-cryo-passport,.expanded-passport) .procedure-passport{padding:10px}
 }
 
-.local-cryo-header .equipment-tariffs dd strong{font-size:clamp(1.125rem,1.7vw,1.375rem);color:var(--teal);font-weight:650}
+:is(.local-cryo-header,.immersion-header) .equipment-tariffs dd strong{font-size:clamp(1.125rem,1.7vw,1.375rem);color:var(--teal);font-weight:650}
+
+.immersion-header .equipment-with-tariffs img{height:clamp(150px,25vw,205px)}
+@media(min-width:701px){
+ .immersion-header .equipment-with-tariffs.equipment-wide-image{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
