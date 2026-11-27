@@ -14,3 +14,10 @@
 .pressure-track span{display:block;height:8px;background:var(--teal);border-radius:8px}
 .pressure-comparison>div:nth-child(2) .pressure-track span{background:var(--accent)}
 @media(max-width:420px){.procedure-passport{padding:8px}.procedure-passport dl>div{padding:10px}.procedure-passport dt,.procedure-passport dd span{font-size:.8rem}.procedure-passport strong{font-size:.9rem}}
+
+.icequeen-header .equipment-with-tariffs img{height:clamp(230px,36vw,330px)}
+.icequeen-header .equipment-tariffs dd strong{font-size:clamp(1.45rem,3.8vw,2.4rem);color:var(--teal)}
+.icequeen-header + .procedure-passport dl>div{background:#f3f3f3}
+.icequeen-header + .procedure-passport .passport-number{font-size:clamp(1.1rem,3.8vw,2.4rem)}
+.icequeen-header + .procedure-passport dd span:empty{display:none}
+@media(max-width:700px){.icequeen-header .equipment-with-tariffs.equipment-wide-image{grid-template-columns:minmax(0,1fr)}}
